@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birzhevik — AI автотрейдинг</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0b0e11;
+      color: #eaecef;
+    }
+    .btn-yellow {
+      background-color: #fcd535;
+      color: #1e2329;
+    }
+    .btn-yellow:hover {
+      background-color: #f5c92a;
+    }
+    .table-border {
+      border-color: #2b3139;
+    }
+  </style>
+</head>
+<body class="font-sans">
+  <!-- Hero -->
+  <section class="text-center py-20 px-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Торговля на автопилоте с Birzhevik</h1>
+    <p class="text-lg md:text-xl mb-8">AI-алгоритм для скальпинга и автоторговли. Запусти и зарабатывай больше.</p>
+    <a href="#download" class="btn-yellow px-8 py-3 rounded-xl text-lg font-semibold">Загрузить</a>
+  </section>
+
+  <!-- Как это работает -->
+  <section class="py-16 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-10 text-center">Как это работает</h2>
+    <div class="grid md:grid-cols-4 gap-8 text-center">
+      <div>
+        <div class="text-5xl mb-4">⚡</div>
+        <h3 class="text-xl font-semibold">Моментальные входы</h3>
+        <p>AI выбирает лучшие точки входа за доли секунды.</p>
+      </div>
+      <div>
+        <div class="text-5xl mb-4">📈</div>
+        <h3 class="text-xl font-semibold">Выбор биржи</h3>
+        <p>Автоанализ и выбор самой прибыльной биржи.</p>
+      </div>
+      <div>
+        <div class="text-5xl mb-4">🤖</div>
+        <h3 class="text-xl font-semibold">Боты & Скальпинг</h3>
+        <p>Быстрые сделки с минимальной задержкой.</p>
+      </div>
+      <div>
+        <div class="text-5xl mb-4">💰</div>
+        <h3 class="text-xl font-semibold">Результат сразу</h3>
+        <p>Прибыль уже с первой транзакции.</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Таблица тарифов -->
+  <section class="py-16 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-10 text-center">Сравнение тарифов</h2>
+    <div class="overflow-x-auto">
+      <table class="min-w-full table-auto border border-table-border text-left">
+        <thead class="bg-gray-800">
+          <tr>
+            <th class="px-6 py-3 border-b border-table-border">Функция</th>
+            <th class="px-6 py-3 border-b border-table-border">Free</th>
+            <th class="px-6 py-3 border-b border-table-border">PRO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="px-6 py-4 border-b border-table-border">Кол-во пар</td>
+            <td class="px-6 py-4 border-b border-table-border">1</td>
+            <td class="px-6 py-4 border-b border-table-border">Без ограничений</td>
+          </tr>
+          <tr class="bg-gray-800">
+            <td class="px-6 py-4 border-b border-table-border">Скорость</td>
+            <td class="px-6 py-4 border-b border-table-border">Средняя</td>
+            <td class="px-6 py-4 border-b border-table-border">Максимальная</td>
+          </tr>
+          <tr>
+            <td class="px-6 py-4 border-b border-table-border">Время работы</td>
+            <td class="px-6 py-4 border-b border-table-border">Ограничено</td>
+            <td class="px-6 py-4 border-b border-table-border">Без ограничений</td>
+          </tr>
+          <tr class="bg-gray-800">
+            <td class="px-6 py-4">Стоимость</td>
+            <td class="px-6 py-4">Бесплатно</td>
+            <td class="px-6 py-4">Бесплатно (пока бета)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Безопасность -->
+  <section class="py-16 px-6 max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Безопасность</h2>
+    <p>Инструмент работает локально. Нет подписей, нет серверов. Только вы и ваш капитал.</p>
+  </section>
+
+  <!-- Частые вопросы -->
+  <section class="py-16 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center">Частые вопросы</h2>
+    <div class="space-y-6">
+      <div>
+        <h3 class="font-semibold text-xl">AiScalper бесплатный?</h3>
+        <p>Да, пока идет бета-тест, вы получаете PRO-функции бесплатно.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-xl">Это безопасно?</h3>
+        <p>Программа не требует API-ключей и работает без подключения к внешним серверам.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA повторно -->
+  <section id="download" class="text-center py-20 px-4 bg-yellow-400">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-black">Зарабатывай больше с Birzhevik</h2>
+    <p class="text-lg md:text-xl mb-6 text-black">Самый быстрый и эффективный AI-алгоритм</p>
+    <a href="#" class="bg-black text-white px-10 py-4 text-lg font-bold rounded-xl">Загрузить</a>
+  </section>
+
+  <!-- Футер -->
+  <footer class="py-10 px-6 text-center text-sm text-gray-500">
+    <p>AiScalper_Setup.exe | Версия 1.1 | Обновлено: 27.05.2025</p>
+    <p class="mt-2">Не является финансовой рекомендацией. Только для ознакомления.</p>
+  </footer>
+</body>
+</html>
